@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("fonts/Montserrat-Light.ttf");
+}
+
+body {
+    margin: 0;
+    background: #cbc5c1;
+}
+
+header {
+    display: flex;
+    background: #5b5549;
+}
+
+ol {
+    margin: 0;
+    margin-left: calc(255 / 1920 * 100vw);
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-item {
+    font-size: calc(45 / 1920 * 100vw);
+    font-family: Montserrat;
+    text-align: center;
+    /* stroke: 1px solid #CBC5C1; */
+    color: #cbc5c1;
+    list-style-type: none;
+}
+
+.watch {
+    border: 0px solid #524d42;
+    border-right-width: 5px;
+    border-left-width: 5px;
+    padding-right: calc(250 / 1920 * 100vw);
+    padding-left: calc(250 / 1920 * 100vw);
+    padding-top: calc(40 / 1920 * 100vw);
+    padding-bottom: calc(33 / 1920 * 100vw);
+}
+
+.img2 {
+    height:calc(125 / 1920 * 100vw);
+    width: calc(138 / 1920 * 100vw);
+    background-image: url("img/user2.svg");
+    background-size: cover;
+    border: 5px solid #524d42;
+}
+
+.logo {
+    text-align: center;
+    font-size: calc(64 / 1920 * 100vw);
+    font-family: 'Old Standard TT', serif;
+    font-weight: normal;
+    padding-top: calc(72 / 1920 * 100vw);
+    margin: 0;
+}
+
+#logo-eng {
+    text-align: center;
+    font-size: calc(45 / 1920 * 100vw);
+    font-family: "Old English Text MT";
+    font-weight: normal;
+    margin: 0;
+}
+
+/*img {
+    position: absolute;
+    width:calc(56 / 1920 * 100vw);
+    height:calc(59 / 1920 * 100vw);
+    margin-top:30px;
+    margin-bottom:32px;
+    margin-left: calc(1823 / 1920 * 100vw);
+    margin-right: 41px;
+    border: 5px solid #524D42;
+}*/
