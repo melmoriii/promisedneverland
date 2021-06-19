@@ -11,6 +11,7 @@ body {
 header {
     display: flex;
     background: #5b5549;
+    border-radius: 0 0 calc(20 / 1920 * 100vw) calc(20 / 1920 * 100vw);
 }
 
 ol {
@@ -46,6 +47,7 @@ ol {
     height:calc(125 / 1920 * 100vw);
     width: calc(138 / 1920 * 100vw);
     background-image: url("img/user2.svg");
+    border-radius: 0 0 calc(20 / 1920 * 100vw) 0;
     background-size: cover;
     border: 5px solid #524d42;
 }
@@ -74,7 +76,7 @@ section {
 #logo-eng {
     text-align: center;
     font-size: calc(45 / 1920 * 100vw);
-    font-family: "Old English Text MT";
+    font-family: Old English Text MT;
     font-weight: normal;
     margin: 0;
     z-index:2;
