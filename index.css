@@ -81,10 +81,17 @@ section {
 }
 
 .quote {
+    width: calc(652 / 1920 * 100vw);
     font-family: 'Merriweather', serif;
     font-size: calc(30 / 1920 * 100vw);
     text-align: center;
     margin-top: calc(58 / 1920 * 100vw);
+    margin-left: calc(370 / 1920 * 100vw);
+}
+
+.quote-author {
+    text-align: right;
+    margin-top: calc(1 / 1920 * 100vw);
 }
 
 /*img {
