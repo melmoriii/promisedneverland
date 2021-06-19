@@ -50,6 +50,17 @@ ol {
     border: 5px solid #524d42;
 }
 
+section {
+    width: calc(1415 / 1920 * 100vw);
+    height: calc(819 / 1920 * 100vw);
+    background: url("img/bg.svg");
+    background-size: cover;
+    margin-top: calc(72 / 1920 * 100vw);
+    margin-right: calc(245 / 1920 * 100vw);
+    margin-bottom: calc(61 / 1920 * 100vw);
+    margin-left: calc(260 / 1920 * 100vw);
+}
+
 .logo {
     text-align: center;
     font-size: calc(64 / 1920 * 100vw);
@@ -69,7 +80,7 @@ ol {
     z-index:2;
 }
 
-img {
+/*img {
     position: absolute;
     width: calc(1415 / 1920 * 100vw);
     height: calc(762 / 1920 * 100vw);
@@ -78,4 +89,4 @@ img {
     top: calc(255 / 1920 * 100vw);
     bottom: calc(64 / 1920 * 100vw);
 
-}
+}*/
