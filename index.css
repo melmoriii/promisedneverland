@@ -3,6 +3,16 @@
     src: url("fonts/Montserrat-Light.ttf");
 }
 
+@font-face {
+    font-family: Old Standard TT;
+    src: url("fonts/OldStandardTT-Regular.ttf");
+}
+
+@font-face {
+    font-family: Merriweather;
+    src: url("fonts/Merriweather-Regular.ttf");
+}
+
 body {
     margin: 0;
     background: #cbc5c1;
@@ -66,7 +76,7 @@ section {
 .logo {
     text-align: center;
     font-size: calc(64 / 1920 * 100vw);
-    font-family: 'Old Standard TT', serif;
+    font-family: Old Standard TT;
     font-weight: normal;
     margin-top: calc(72 / 1920 * 100vw);
     margin: 0;
@@ -84,8 +94,9 @@ section {
 
 .quote {
     width: calc(652 / 1920 * 100vw);
-    font-family: 'Merriweather', serif;
+    font-family: Merriweather;
     font-size: calc(30 / 1920 * 100vw);
+    font-style: italic;
     text-align: center;
     margin-top: calc(58 / 1920 * 100vw);
     margin-left: calc(370 / 1920 * 100vw);
