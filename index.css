@@ -106,11 +106,29 @@ section {
     margin-top: calc(1 / 1920 * 100vw);
 }
 
-/*.footer {
+button {
+  width: calc(335 / 1920 * 100vw);
+  height: calc(132 / 1920 * 100vw);
+  background: #5b5549;
+  border-radius: calc(50 / 1920 * 100vw);
+  align-items: center;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: calc(36 / 1920 * 100vw);
+  margin-left: calc(526 / 1920 * 100vw);
+  color: #cbc5c1;
+}
+
+footer {
+    width: calc(458 / 1920 * 100vw);
+    height: calc(28 / 1920 * 100vw);
     text-align: center;
     font-size: calc(24 / 1920 * 100vw);
     font-family: Montserrat;
-}*/
+    margin-right: calc(740 / 1920 * 100vw);
+    margin-left: calc(722 / 1920 * 100vw);
+    margin-bottom: calc(20 / 1920 * 100vw);
+}
 
 /*img {
     position: absolute;
