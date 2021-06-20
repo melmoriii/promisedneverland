@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: Merriweather;
-    src: url("fonts/Merriweather-Regular.ttf");
+    src: url("fonts/Merriweather-LightItalic.ttf");
 }
 
 body {
@@ -86,7 +86,7 @@ section {
 #logo-eng {
     text-align: center;
     font-size: calc(45 / 1920 * 100vw);
-    font-family: Old English Text MT;
+    font-family: "Old English Text MT";
     font-weight: normal;
     margin: 0;
     z-index:2;
@@ -96,7 +96,6 @@ section {
     width: calc(652 / 1920 * 100vw);
     font-family: Merriweather;
     font-size: calc(30 / 1920 * 100vw);
-    font-style: italic;
     text-align: center;
     margin-top: calc(58 / 1920 * 100vw);
     margin-left: calc(370 / 1920 * 100vw);
