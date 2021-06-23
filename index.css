@@ -138,6 +138,10 @@ button {
   color: #cbc5c1;
 }
 
+button:hover {
+    background: #6C5748;
+}
+
 footer {
     width: calc(458 / 1920 * 100vw);
     height: calc(28 / 1920 * 100vw);
