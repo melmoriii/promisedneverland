@@ -41,14 +41,13 @@ ol {
     font-size: calc(45 / 1920 * 100vw);
     background: #5b5549;
     font-family: Montserrat;
-    /*text-align: center;*/
     /* stroke: 1px solid #CBC5C1; */
     color: #cbc5c1;
     list-style-type: none;
 }
 
 .menu-item:hover {
-    background: #aa6332;
+    background: #6C5748;
 }
 
 #main {
