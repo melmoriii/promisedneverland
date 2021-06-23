@@ -20,13 +20,12 @@ body {
 
 header {
     display: flex;
-    background: #5b5549;
     border-radius: 0 0 calc(20 / 1920 * 100vw) calc(20 / 1920 * 100vw);
 }
 
 ol {
     margin: 0;
-    margin-left: calc(255 / 1920 * 100vw);
+    /*margin-left: calc(255 / 1920 * 100vw);*/
     padding: 0;
     width: 100%;
     display: flex;
@@ -35,26 +34,47 @@ ol {
 }
 
 .menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:calc(125 / 1920 * 100vw);
     font-size: calc(45 / 1920 * 100vw);
+    background: #5b5549;
     font-family: Montserrat;
-    text-align: center;
+    /*text-align: center;*/
     /* stroke: 1px solid #CBC5C1; */
     color: #cbc5c1;
     list-style-type: none;
 }
 
-.watch {
+.menu-item:hover {
+    background: #aa6332;
+}
+
+#main {
+    width: calc(608 / 1920 * 100vw);
+    /*padding-right: calc(173 / 1920 * 100vw);*/
+    /*padding-left: calc(252 / 1920 * 100vw);*/
+    /*padding-top: calc(40 / 1920 * 100vw);*/
+    /*padding-bottom: calc(32 / 1920 * 100vw);*/
+}
+
+#watch {
     border: 0px solid #524d42;
     border-right-width: 5px;
     border-left-width: 5px;
-    padding-right: calc(250 / 1920 * 100vw);
-    padding-left: calc(250 / 1920 * 100vw);
-    padding-top: calc(40 / 1920 * 100vw);
-    padding-bottom: calc(33 / 1920 * 100vw);
+    width: calc(717 / 1920 * 100vw);
+    /*padding-right: calc(250 / 1920 * 100vw);*/
+    /*padding-left: calc(250 / 1920 * 100vw);*/
+    /*padding-top: calc(40 / 1920 * 100vw);*/
+    /*padding-bottom: calc(33 / 1920 * 100vw);*/
 }
 
-.img2 {
-    height:calc(125 / 1920 * 100vw);
+#manga {
+    width: calc(458 / 1920 * 100vw);
+}
+
+#img2 {
     width: calc(138 / 1920 * 100vw);
     background-image: url("img/user2.svg");
     border-radius: 0 0 calc(20 / 1920 * 100vw) 0;
@@ -65,18 +85,18 @@ ol {
 section {
     width: calc(1415 / 1920 * 100vw);
     height: calc(819 / 1920 * 100vw);
-    background: url("img/bg.svg");
+    background: url("img/section.svg");
     background-size: cover;
     margin-top: calc(72 / 1920 * 100vw);
     margin-right: calc(245 / 1920 * 100vw);
-    margin-bottom: calc(61 / 1920 * 100vw);
+    margin-bottom: calc(17 / 1920 * 100vw);
     margin-left: calc(260 / 1920 * 100vw);
 }
 
 .logo {
     text-align: center;
     font-size: calc(64 / 1920 * 100vw);
-    font-family: Old Standard TT;
+    font-family: "Old Standard TT";
     font-weight: normal;
     margin-top: calc(72 / 1920 * 100vw);
     margin: 0;
@@ -127,7 +147,6 @@ footer {
     font-family: Montserrat;
     margin-right: calc(740 / 1920 * 100vw);
     margin-left: calc(722 / 1920 * 100vw);
-    margin-bottom: calc(20 / 1920 * 100vw);
 }
 
 /*img {
