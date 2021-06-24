@@ -25,7 +25,6 @@ header {
 
 ol {
     margin: 0;
-    /*margin-left: calc(255 / 1920 * 100vw);*/
     padding: 0;
     width: 100%;
     display: flex;
@@ -41,7 +40,6 @@ ol {
     font-size: calc(45 / 1920 * 100vw);
     background: #5b5549;
     font-family: Montserrat;
-    /* stroke: 1px solid #CBC5C1; */
     color: #cbc5c1;
     list-style-type: none;
 }
@@ -52,10 +50,6 @@ ol {
 
 #main {
     width: calc(608 / 1920 * 100vw);
-    /*padding-right: calc(173 / 1920 * 100vw);*/
-    /*padding-left: calc(252 / 1920 * 100vw);*/
-    /*padding-top: calc(40 / 1920 * 100vw);*/
-    /*padding-bottom: calc(32 / 1920 * 100vw);*/
 }
 
 #watch {
@@ -63,10 +57,6 @@ ol {
     border-right-width: 5px;
     border-left-width: 5px;
     width: calc(717 / 1920 * 100vw);
-    /*padding-right: calc(250 / 1920 * 100vw);*/
-    /*padding-left: calc(250 / 1920 * 100vw);*/
-    /*padding-top: calc(40 / 1920 * 100vw);*/
-    /*padding-bottom: calc(33 / 1920 * 100vw);*/
 }
 
 #manga {
@@ -83,7 +73,7 @@ ol {
 
 h1 {
     width: calc(516 / 1920 * 100vw);
-    height: calc(20  1920 * 100vw);
+    height: calc(20 / 1920 * 100vw);
     font-family: Montserrat;
     font-size: calc(20 / 1920 * 100vw);
     color: #cbc5c1;
@@ -92,5 +82,17 @@ h1 {
     padding-right: calc(610 / 1920 * 100vw);
     padding-bottom: calc(14 / 1920 * 100vw);
     padding-left: calc(23 / 1920 * 100vw);
+    margin-top: calc(42 / 1920 * 100vw);
     margin-left: calc(400 / 1920 * 100vw);
+}
+
+/*#frame {*/
+/*    position: absolute;*/
+/*    background-image: url("img/frame.svg");*/
+/*    width: calc(1150 / 1920 * 100vw);*/
+/*    height: calc(823 / 1920 * 100vw);*/
+/*    margin-top: calc(42 / 1920 * 100vw);*/
+/*    margin-right: calc(385 / 1920 * 100vw);*/
+/*    margin-bottom: calc(42 / 1920 * 100vw);*/
+/*    margin-left: calc(385 / 1920 * 100vw);*/
 }
