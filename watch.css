@@ -78,7 +78,6 @@ h1 {
     color: #cbc5c1;
     padding-top: calc(15 / 1920 * 100vw);
     padding-right: calc(610 / 1920 * 100vw);
-    padding-bottom: calc(14 / 1920 * 100vw);
     padding-left: calc(23 / 1920 * 100vw);
     margin-top: calc(42 / 1920 * 100vw);
 }
@@ -93,30 +92,38 @@ h1 {
 ol {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+   justify-content: flex-start;
     align-items: center;
 }
 
+/*#season-menu {*/
+/*    border: 2px solid #524D42;*/
+/*}*/
+
 .season {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     font-family: Montserrat;
+    text-align: center;
     color: #cbc5c1;
     background: #524d42;
     font-size: calc(17 / 1920 * 100vw);
     width: calc(121 / 1920 *100vw);
     height: calc(37 / 1920 * 100vw);
-    /*padding-top: calc(9 / 1920 * 100vw);*/
-    /*padding-right: calc(24 / 1920 * 100vw);*/
-    /*padding-bottom: calc(9 / 1920 * 100vw);*/
-    /*padding-left: calc(24 / 1920 * 100vw);*/
+    margin-right: calc(24 / 1920 * 100vw);
+    margin-bottom: calc(14 / 1920 * 100vw);
+    margin-top: calc(17 / 1920 * 100vw);
+}
+#s1 {
+    margin-left: calc(22 / 1920 * 100vw);
 }
 
 #player {
     width: calc(1116 / 1920 * 100vw);
     height: calc(570 / 1920 * 100vw);
     background: #000000;
+    margin-right: calc(16 / 1920 * 100vw);
+    margin-left: calc(15 / 1920 * 100vw);
 }
 
 #play {
@@ -126,4 +133,27 @@ ol {
     height: calc(56 / 1920 * 100vw);
     background-image: url("img/watch/play-bt.svg");
     background-size: cover;
+}
+
+.episode {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #cbc5c1;
+    background: #524d42;
+    font-family: Montserrat;
+    font-size: calc(16 / 1920 * 100vw);
+    width: calc(122 / 1920 * 100vw);
+    height: calc(32 / 1920 * 100vw);
+    margin-right: calc(14 / 1920 * 100vw);
+    margin-bottom: calc(15 / 1920 * 100vw);
+    margin-top: calc(23 / 1920 * 100vw);
+    /*padding-top: calc(5 / 1920 * 100vw);*/
+    /*padding-right: calc(26 / 1920 * 100vw);*/
+    /*padding-bottom: calc(5 / 1920 * 100vw);*/
+    /*padding-left: calc(26 / 1920 * 100vw);*/
+}
+
+#episode1 {
+    margin-left: calc(23 / 1920 * 100vw);
 }
