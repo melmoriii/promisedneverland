@@ -50,6 +50,7 @@ ol {
 
 #main {
     width: calc(608 / 1920 * 100vw);
+    border-radius: 0 0 0 calc(20 / 1920 * 100vw) ;
 }
 
 #watch {
@@ -95,15 +96,16 @@ section {
 
 #frame {
     background-color: #5b5549;
+    border-radius: calc(5 / 1920 * 100vw);
     width: calc(1150 / 1920 * 100vw);
     height: calc(823 / 1920 * 100vw);
     margin: auto;
 }
 
-ol {
+#season-menu {
     list-style-type: none;
     display: flex;
-   justify-content: flex-start;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -164,10 +166,6 @@ ol {
     margin-right: calc(14 / 1920 * 100vw);
     margin-bottom: calc(15 / 1920 * 100vw);
     margin-top: calc(23 / 1920 * 100vw);
-    /*padding-top: calc(5 / 1920 * 100vw);*/
-    /*padding-right: calc(26 / 1920 * 100vw);*/
-    /*padding-bottom: calc(5 / 1920 * 100vw);*/
-    /*padding-left: calc(26 / 1920 * 100vw);*/
 }
 
 #episode1 {

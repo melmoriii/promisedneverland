@@ -52,10 +52,7 @@ ol {
 
 #main {
     width: calc(608 / 1920 * 100vw);
-    /*padding-right: calc(173 / 1920 * 100vw);*/
-    /*padding-left: calc(252 / 1920 * 100vw);*/
-    /*padding-top: calc(40 / 1920 * 100vw);*/
-    /*padding-bottom: calc(32 / 1920 * 100vw);*/
+    border-radius: 0 0 0 calc(20 / 1920 * 100vw) ;
 }
 
 #watch {
@@ -63,10 +60,6 @@ ol {
     border-right-width: 5px;
     border-left-width: 5px;
     width: calc(717 / 1920 * 100vw);
-    /*padding-right: calc(250 / 1920 * 100vw);*/
-    /*padding-left: calc(250 / 1920 * 100vw);*/
-    /*padding-top: calc(40 / 1920 * 100vw);*/
-    /*padding-bottom: calc(33 / 1920 * 100vw);*/
 }
 
 #manga {
@@ -78,7 +71,6 @@ ol {
     background-image: url("img/user2.svg");
     border-radius: 0 0 calc(20 / 1920 * 100vw) 0;
     background-size: cover;
-    /*border: 5px solid #524d42;*/
 }
 
 section {
