@@ -130,6 +130,17 @@ section {
 }
 #s1 {
     margin-left: calc(22 / 1920 * 100vw);
+    background: #cbc5c1;
+    color: #524D42;
+}
+
+.season:hover {
+    background: #6C5748;
+}
+
+.season:active {
+    background: #cbc5c1;
+    color: #524D42;
 }
 
 #player {
@@ -168,8 +179,19 @@ section {
     margin-top: calc(23 / 1920 * 100vw);
 }
 
+.episode:hover {
+    background: #6C5748;
+}
+
+.episode:active {
+    background: #cbc5c1;
+    color: #524D42;
+}
+
 #episode1 {
     margin-left: calc(23 / 1920 * 100vw);
+    background: #cbc5c1;
+    color: #524D42;
 }
 
 footer {
