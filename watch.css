@@ -102,9 +102,11 @@ section {
 #frame {
     background-color: #5b5549;
     border-radius: calc(5 / 1920 * 100vw);
-    width: calc(1150 / 1920 * 100vw);
+    width: calc((1150 - 31) / 1920 * 100vw);
     height: calc(823 / 1920 * 100vw);
     margin: auto;
+    padding-left: calc(15 / 1920 * 100vw);
+    padding-right: calc(16 / 1920 * 100vw);
 }
 
 #season-menu {
@@ -121,9 +123,9 @@ section {
 .season {
     display: flex;
     align-items: center;
-    font-family: Montserrat;
-    text-align: center;
+    justify-content: center;
     color: #cbc5c1;
+    font-family: Montserrat;
     background: #524d42;
     font-size: calc(17 / 1920 * 100vw);
     width: calc(121 / 1920 *100vw);
@@ -134,14 +136,14 @@ section {
     border-radius: calc(5 / 1920 * 100vw);
 }
 #s1 {
-    margin-left: calc(22 / 1920 * 100vw);
+    /*margin-left: calc(22 / 1920 * 100vw);*/
     background: #cbc5c1;
     color: #524D42;
 }
 
-.season:hover {
-    background: #6C5748;
-}
+/*.season:hover {*/
+/*    background: #6C5748;*/
+/*}*/
 
 .season:active {
     background: #cbc5c1;
@@ -149,18 +151,20 @@ section {
 }
 
 #player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: calc(1116 / 1920 * 100vw);
     height: calc(570 / 1920 * 100vw);
     background: #000000;
-    margin-right: calc(16 / 1920 * 100vw);
-    margin-left: calc(15 / 1920 * 100vw);
+    margin: 0;
 }
 
 #play {
     display: flex;
     border: 0;
     padding: 0;
-    margin: auto;
+    /*margin: auto;*/
     width: calc(59 / 1920 * 100vw);
     height: calc(70 / 1920 * 100vw);
     background: url("img/watch/play-bt.svg");
@@ -171,7 +175,7 @@ section {
 .episode {
     display: flex;
     align-items: center;
-    text-align: center;
+    justify-content: center;
     color: #cbc5c1;
     background: #524d42;
     font-family: Montserrat;
@@ -184,7 +188,11 @@ section {
     margin-top: calc(23 / 1920 * 100vw);
 }
 
-.episode:hover {
+#ep-menu {
+    display: flex;
+}
+
+.episode:hover, .season:hover {
     background: #6C5748;
 }
 
@@ -194,7 +202,7 @@ section {
 }
 
 #episode1 {
-    margin-left: calc(23 / 1920 * 100vw);
+    /*margin-left: calc(23 / 1920 * 100vw);*/
     background: #cbc5c1;
     color: #524D42;
 }

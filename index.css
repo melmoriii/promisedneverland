@@ -33,6 +33,10 @@ ol {
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 .menu-item {
     display: flex;
     justify-content: center;
