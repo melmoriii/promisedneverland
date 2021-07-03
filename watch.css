@@ -142,13 +142,13 @@ section {
 
 #play {
     display: flex;
-    background-size: cover;
     align-items: center;
     border: 0;
     padding: 0;
     width: calc(59 / 1920 * 100vw);
     height: calc(70 / 1920 * 100vw);
     background: url("img/watch/play-bt.svg");
+    background-size: cover;
 }
 
 .episode {
