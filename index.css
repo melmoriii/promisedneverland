@@ -50,25 +50,16 @@ a {
     list-style-type: none;
 }
 
-.menu-item:hover {
-    background: #6C5748;
-}
-
-.menu-item:active {
-    background: #cbc5c1;
-    color: #524D42;
-}
-
 #main {
     width: calc(608 / 1920 * 100vw);
     border-radius: 0 0 0 calc(20 / 1920 * 100vw) ;
 }
 
 #watch {
+    width: calc(717 / 1920 * 100vw);
     border: 0px solid #524d42;
     border-right-width: 5px;
     border-left-width: 5px;
-    width: calc(717 / 1920 * 100vw);
 }
 
 #manga {
@@ -78,8 +69,8 @@ a {
 #img2 {
     width: calc(138 / 1920 * 100vw);
     background-image: url("img/user2.svg");
-    border-radius: 0 0 calc(20 / 1920 * 100vw) 0;
     background-size: cover;
+    border-radius: 0 0 calc(20 / 1920 * 100vw) 0;
 }
 
 section {
@@ -113,10 +104,10 @@ section {
 }
 
 .quote {
-    width: calc(652 / 1920 * 100vw);
+    text-align: center;
     font-family: Merriweather;
     font-size: calc(30 / 1920 * 100vw);
-    text-align: center;
+    width: calc(652 / 1920 * 100vw);
     margin-top: calc(58 / 1920 * 100vw);
     margin-left: calc(370 / 1920 * 100vw);
 }
@@ -127,45 +118,33 @@ section {
 }
 
 button {
-  width: calc(335 / 1920 * 100vw);
-  height: calc(132 / 1920 * 100vw);
-  background: #5b5549;
-  border-radius: calc(50 / 1920 * 100vw);
-  align-items: center;
-  text-align: center;
-  font-family: Montserrat;
-  font-size: calc(36 / 1920 * 100vw);
-  margin-left: calc(526 / 1920 * 100vw);
-  color: #cbc5c1;
+    width: calc(335 / 1920 * 100vw);
+    height: calc(132 / 1920 * 100vw);
+    background: #5b5549;
+    border-radius: calc(50 / 1920 * 100vw);
+    align-items: center;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: calc(36 / 1920 * 100vw);
+    margin-left: calc(526 / 1920 * 100vw);
+    color: #cbc5c1;
 }
 
-button:hover {
+button:hover, .menu-item:hover {
     background: #6C5748;
 }
 
-button:active {
+button:active, .menu-item:active  {
     background: #cbc5c1;
     color: #524D42;
 }
 
 footer {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: calc(24 / 1920 * 100vw);
     width: calc(458 / 1920 * 100vw);
     height: calc(28 / 1920 * 100vw);
-    text-align: center;
-    font-size: calc(24 / 1920 * 100vw);
-    font-family: Montserrat;
     margin-right: calc(740 / 1920 * 100vw);
     margin-left: calc(722 / 1920 * 100vw);
 }
-
-
-/*img {
-    position: absolute;
-    width: calc(1415 / 1920 * 100vw);
-    height: calc(762 / 1920 * 100vw);
-    left: calc(260 / 1920 * 100vw);
-    right: calc(245 / 1920 * 100vw);
-    top: calc(255 / 1920 * 100vw);
-    bottom: calc(64 / 1920 * 100vw);
-
-}*/

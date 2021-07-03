@@ -24,24 +24,24 @@ header {
 }
 
 ol {
-    margin: 0;
-    padding: 0;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 .menu-item {
     display: flex;
     justify-content: center;
     align-items: center;
-    height:calc(125 / 1920 * 100vw);
+    list-style-type: none;
+    font-family: Montserrat;
     font-size: calc(45 / 1920 * 100vw);
     background: #5b5549;
-    font-family: Montserrat;
     color: #cbc5c1;
-    list-style-type: none;
+    height:calc(125 / 1920 * 100vw);
 }
 
 a {
@@ -66,16 +66,16 @@ a {
 
 #img2 {
     width: calc(138 / 1920 * 100vw);
+    background-size: cover;
     background-image: url("img/user2.svg");
     border-radius: 0 0 calc(20 / 1920 * 100vw) 0;
-    background-size: cover;
 }
 
 h1 {
-    width: calc(516 / 1920 * 100vw);
-    height: calc(20 / 1920 * 100vw);
     font-family: Montserrat;
     font-size: calc(20 / 1920 * 100vw);
+    width: calc(516 / 1920 * 100vw);
+    height: calc(20 / 1920 * 100vw);
     color: #cbc5c1;
     padding-top: calc(15 / 1920 * 100vw);
     padding-right: calc(610 / 1920 * 100vw);
@@ -83,10 +83,10 @@ h1 {
 }
 
 section {
-    width: calc(1821 / 1920 * 100vw);
-    height: calc(831 / 1920 * 100vw);
     background: url("img/watch/section-bg.svg");
     background-size: cover;
+    width: calc(1821 / 1920 * 100vw);
+    height: calc(831 / 1920 * 100vw);
     margin-top: calc(42 / 1920 * 100vw);
     margin-right: calc(62 / 1920 * 100vw);
     margin-bottom: calc(35 / 1920 * 100vw);
@@ -95,12 +95,12 @@ section {
 
 #frame {
     background-color: #5b5549;
-    border-radius: calc(5 / 1920 * 100vw);
     width: calc((1150 - 31) / 1920 * 100vw);
     height: calc(823 / 1920 * 100vw);
     margin: auto;
     padding-left: calc(15 / 1920 * 100vw);
     padding-right: calc(16 / 1920 * 100vw);
+    border-radius: calc(5 / 1920 * 100vw);
 }
 
 #season-menu {
@@ -114,10 +114,10 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #cbc5c1;
     font-family: Montserrat;
-    background: #524d42;
     font-size: calc(17 / 1920 * 100vw);
+    color: #cbc5c1;
+    background: #524d42;
     width: calc(121 / 1920 *100vw);
     height: calc(37 / 1920 * 100vw);
     margin-right: calc(24 / 1920 * 100vw);
@@ -126,7 +126,6 @@ section {
     border-radius: calc(5 / 1920 * 100vw);
 }
 #s1 {
-
     background: #cbc5c1;
     color: #524D42;
 }
@@ -137,36 +136,34 @@ section {
     align-items: center;
     width: calc(1116 / 1920 * 100vw);
     height: calc(570 / 1920 * 100vw);
-    background: #000000;
     margin: 0;
+    background: #000000;
 }
 
 #play {
     display: flex;
+    background-size: cover;
+    align-items: center;
     border: 0;
     padding: 0;
-    /*margin: auto;*/
     width: calc(59 / 1920 * 100vw);
     height: calc(70 / 1920 * 100vw);
     background: url("img/watch/play-bt.svg");
-    background-size: cover;
-    align-items: center;
 }
 
 .episode {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Montserrat;
+    font-size: calc(17 / 1920 * 100vw);
     color: #cbc5c1;
     background: #524d42;
-    font-family: Montserrat;
-    border-radius: calc(5 / 1920 * 100vw);
-    font-size: calc(17 / 1920 * 100vw);
     width: calc(122 / 1920 * 100vw);
     height: calc(32 / 1920 * 100vw);
     margin-right: calc(14 / 1920 * 100vw);
-    /*margin-bottom: calc(15 / 1920 * 100vw);*/
     margin-top: calc(23 / 1920 * 100vw);
+    border-radius: calc(5 / 1920 * 100vw);
 }
 
 #ep-menu {
@@ -181,11 +178,11 @@ section {
 }
 
 footer {
+    text-align: center;
+    font-family: Montserrat;
     width: calc(458 / 1920 * 100vw);
     height: calc(28 / 1920 * 100vw);
-    text-align: center;
     font-size: calc(24 / 1920 * 100vw);
-    font-family: Montserrat;
     margin-right: calc(740 / 1920 * 100vw);
     margin-left: calc(722 / 1920 * 100vw);
 }
