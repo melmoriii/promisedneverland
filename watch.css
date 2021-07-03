@@ -53,6 +53,10 @@ ol {
     color: #524D42;
 }
 
+a {
+    text-decoration: none;
+}
+
 #main {
     width: calc(608 / 1920 * 100vw);
     border-radius: 0 0 0 calc(20 / 1920 * 100vw) ;
@@ -84,7 +88,6 @@ h1 {
     color: #cbc5c1;
     padding-top: calc(15 / 1920 * 100vw);
     padding-right: calc(610 / 1920 * 100vw);
-    padding-left: calc(23 / 1920 * 100vw);
     margin-top: calc(42 / 1920 * 100vw);
 }
 
@@ -184,12 +187,14 @@ section {
     width: calc(122 / 1920 * 100vw);
     height: calc(32 / 1920 * 100vw);
     margin-right: calc(14 / 1920 * 100vw);
-    margin-bottom: calc(15 / 1920 * 100vw);
+    /*margin-bottom: calc(15 / 1920 * 100vw);*/
     margin-top: calc(23 / 1920 * 100vw);
 }
 
 #ep-menu {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .episode:hover, .season:hover {
