@@ -125,10 +125,10 @@ section {
     margin-top: calc(17 / 1920 * 100vw);
     border-radius: calc(5 / 1920 * 100vw);
 }
-#s1 {
-    background: #cbc5c1;
-    color: #524D42;
-}
+/*#s1 {*/
+/*    background: #cbc5c1;*/
+/*    color: #524D42;*/
+/*}*/
 
 #player {
     display: flex;
@@ -172,10 +172,10 @@ section {
     justify-content: flex-start;
 }
 
-#episode1 {
-    background: #cbc5c1;
-    color: #524D42;
-}
+/*#episode1 {*/
+/*    background: #cbc5c1;*/
+/*    color: #524D42;*/
+/*}*/
 
 footer {
     text-align: center;
@@ -191,7 +191,7 @@ footer {
     background: #6C5748;
 }
 
-.episode:active, .season:active, .menu-item:active {
-    background: #cbc5c1;
-    color: #524D42;
-}
+/*.episode:active, .season:active, .menu-item:active {*/
+/*    background: #cbc5c1;*/
+/*    color: #524D42;*/
+/*}*/
