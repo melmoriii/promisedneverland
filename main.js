@@ -1,7 +1,6 @@
-var season1 = document.getElementById("s1");
-console.log(season.style);
-function s1(){
-    season1.style.background = "#cbc5c1";
-    season1.style.color = "#524d42";
+var elements = document.getElementsByClassName("season")[0];
+console.log(elements.style);
+function el(){
+    elements.style.backgroundColor = ("#cbc5c1");
+    elements.style.color = ("#524d42");
 }
-
