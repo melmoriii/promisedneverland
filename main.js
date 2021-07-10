@@ -1,6 +1,9 @@
-var elements = document.getElementsByClassName("season")[0];
-console.log(elements.style);
+const elements = document.getElementsByClassName("season");
+var victim = elements[0].style;
+console.log(victim);
 function el(){
-    elements.style.backgroundColor = ("#cbc5c1");
-    elements.style.color = ("#524d42");
+    victim.backgroundColor = ("#cbc5c1");
+    victim.color = ("#524d42");
 }
+// var vasya = "vasya22"+2
+// console.log(vasya);
