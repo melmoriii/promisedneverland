@@ -1,9 +1,22 @@
-const elements = document.getElementsByClassName("season");
-var victim = elements[0].style;
-console.log(victim);
-function el(){
-    victim.backgroundColor = ("#cbc5c1");
-    victim.color = ("#524d42");
+const el1 = document.getElementsByClassName("season");
+var season1 = el1[0].style;
+console.log(season1);
+function s1(){
+    season1.backgroundColor = ("#cbc5c1");
+    season1.color = ("#524d42");
 }
-// var vasya = "vasya22"+2
-// console.log(vasya);
+const el2 = document.getElementsByClassName("season");
+var season2 = el2[1].style;
+console.log(season2);
+function s2(){
+    season2.backgroundColor = ("#cbc5c1");
+    season2.color = ("#524d42");
+}
+const el3 = document.getElementsByClassName("season");
+var season3 = el3[2].style;
+console.log(season3);
+function s3(){
+    season3.backgroundColor = ("#cbc5c1");
+    season3.color = ("#524d42");
+}
+
