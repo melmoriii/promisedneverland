@@ -130,8 +130,8 @@ section {
     color: #cbc5c1;
 }
 
-#autor {
-    display: none;
+#author {
+    /*display: none;*/
     background: #5b5549;
     border: 5px solid #524d42;
     border-radius: 0 0 calc(20 / 1920 * 100vw) calc(20 / 1920 * 100vw);
@@ -141,15 +141,31 @@ section {
 
 .ent-menu {
     background: #e1e1e1;
+    width: calc(444 / 1920 * 100vw);
+    height: calc(33 / 1920 * 100vw);
     border-radius: 5px;
     font-family: Montserrat;
-    font-size: calc(14 / 1920 * 100vw);
+    font-size: calc(15 / 1920 * 100vw);
     color: #524d42;
 }
 
 #enter {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #6C5748;
+    width: calc(105 / 1920 * 100vw);
+    height: calc(49 / 1920 * 100vw);
+    border: 2px solid #524d42;
+    color: #cbc5c1;
+    margin-top: calc(21 / 1920 * 100vw);
+    border-radius: 10px;
+}
 
+#ent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: calc(96 / 1920 * 100vw);
     height: calc(41 / 1920 * 100vw);
     background: #cbc5c1;
@@ -157,6 +173,14 @@ section {
     font-family: Montserrat;
     font-size: calc(25 / 1920 * 100vw);
     color: #524d42;
+    margin-top: calc(26 / 1920 * 100vw);
+    margin-right: calc(22 / 1920 * 100vw);
+    margin-left: calc(494 / 1920 * 100vw);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
 }
 
 #watch-bt:hover, .menu-item:hover {
