@@ -11,8 +11,16 @@
             <a href="index.html" target="_self"><li class="menu-item" id="main">Главная</li></a>
             <a href="watch.html" target="_self"><li class="menu-item" id="watch">Смотреть</li></a> <!--test js-->
             <li class="menu-item" id="manga">Манга</li>
-            <li class="menu-item" id="img2"></li>
+            <li class="menu-item" id="img2" onclick="enter()"></li>
         </ol>
+        <div id="autor">
+            <div id="enter">Вход</div>
+            <form action="">
+                <input class="ent-menu" type="text" placeholder="Электронная почта" >
+                <input class="ent-menu" type="text" placeholder="Пароль" >
+                <input type="submit" value="Войти">
+            </form>
+        </div>
     </header>
     <section>
         <h1 class="logo">Обещанный Неверленд</h1>
@@ -26,7 +34,7 @@
                 мы можем осуществить их мечты!
             </p>
             <p class="quote quote-author">- Эмма</p>
-            <a href="watch.html" target="_self"><button>
+            <a href="watch.html" target="_self"><button id="watch-bt">
                 Смотреть<br/>сейчас
             </button>
             </a>
@@ -37,5 +45,6 @@
             <p>Powered by Mel. All rights reserved. ©</p>
         </div>
     </footer>
+    <script src="main.js"></script>
     </body>
 </html>

@@ -117,7 +117,7 @@ section {
     margin-top: calc(1 / 1920 * 100vw);
 }
 
-button {
+#watch-bt {
     width: calc(335 / 1920 * 100vw);
     height: calc(132 / 1920 * 100vw);
     background: #5b5549;
@@ -130,11 +130,40 @@ button {
     color: #cbc5c1;
 }
 
-button:hover, .menu-item:hover {
+#autor {
+    display: none;
+    background: #5b5549;
+    border: 5px solid #524d42;
+    border-radius: 0 0 calc(20 / 1920 * 100vw) calc(20 / 1920 * 100vw);
+    width: calc(611 / 1920 * 100vw);
+    height: calc(320 / 1920 * 100vw);
+}
+
+.ent-menu {
+    background: #e1e1e1;
+    border-radius: 5px;
+    font-family: Montserrat;
+    font-size: calc(14 / 1920 * 100vw);
+    color: #524d42;
+}
+
+#enter {
+    display: flex;
+
+    width: calc(96 / 1920 * 100vw);
+    height: calc(41 / 1920 * 100vw);
+    background: #cbc5c1;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-size: calc(25 / 1920 * 100vw);
+    color: #524d42;
+}
+
+#watch-bt:hover, .menu-item:hover {
     background: #6C5748;
 }
 
-button:active, .menu-item:active  {
+#watch-bt:active, .menu-item:active  {
     background: #cbc5c1;
     color: #524D42;
 }

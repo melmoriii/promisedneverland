@@ -1,3 +1,14 @@
+const auto = document.getElementById("autor");
+var entrance = auto.style;
+console.log(entrance);
+function enter(){
+    if (auto.style.display === 'block') {
+        auto.style.display = 'none';
+    } else {
+        auto.style.display = 'block';
+    }
+}
+
 const el1 = document.getElementsByClassName("season");
 var season1 = el1[0].style;
 console.log(season1);
@@ -19,4 +30,3 @@ function s3(){
     season3.backgroundColor = ("#cbc5c1");
     season3.color = ("#524d42");
 }
-
