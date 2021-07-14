@@ -178,6 +178,12 @@ section {
     margin-left: calc(494 / 1920 * 100vw);
 }
 
+#trouble {
+    color: black;
+    font-family: Montserrat;
+    font-size: calc(13 / 1920 * 100vw);
+}
+
 form {
     display: flex;
     flex-direction: column;
