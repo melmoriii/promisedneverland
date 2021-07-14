@@ -139,6 +139,11 @@ section {
     height: calc(320 / 1920 * 100vw);
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+}
+
 .ent-menu {
     background: #e1e1e1;
     width: calc(444 / 1920 * 100vw);
@@ -162,6 +167,16 @@ section {
     border-radius: 10px;
 }
 
+/*#google {*/
+/*    background: url("img/watch/google-bg.svg");*/
+/*    background-size: cover;*/
+/*    width: calc(190 / 1920 * 100vw);*/
+/*    height: calc(38 / 1920 * 100vw);*/
+/*    font-family: Montserrat;*/
+/*    font-size: calc(25 / 1920 * 100vw);*/
+/*    color: #524d42;*/
+/*}*/
+
 #ent {
     display: flex;
     justify-content: center;
@@ -178,15 +193,14 @@ section {
     margin-left: calc(494 / 1920 * 100vw);
 }
 
+/*.ph-and-enter {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*}*/
 #trouble {
     color: black;
     font-family: Montserrat;
     font-size: calc(13 / 1920 * 100vw);
-}
-
-form {
-    display: flex;
-    flex-direction: column;
 }
 
 #watch-bt:hover, .menu-item:hover {
