@@ -131,7 +131,7 @@ section {
 }
 
 #author {
-    /*display: none;*/
+    display: none;
     background: #5b5549;
     border: 5px solid #524d42;
     border-radius: 0 0 calc(20 / 1920 * 100vw) calc(20 / 1920 * 100vw);
