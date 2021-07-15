@@ -8,7 +8,6 @@ function enter(){
         auto.style.display = 'block';
     }
 }
-
 const el1 = document.getElementsByClassName("season");
 var season1 = el1[0].style;
 console.log(season1);
