@@ -21,11 +21,11 @@ body {
 header {
     display: flex;
     border-radius: 0 0 calc(20 / 1920 * 100vw) calc(20 / 1920 * 100vw);
+    font-family: Montserrat;
 }
 
 ol {
     margin: 0;
-    /*margin-left: calc(255 / 1920 * 100vw);*/
     padding: 0;
     width: 100%;
     display: flex;
@@ -44,8 +44,6 @@ a {
     height:calc(125 / 1920 * 100vw);
     font-size: calc(45 / 1920 * 100vw);
     background: #5b5549;
-    font-family: Montserrat;
-    /* stroke: 1px solid #CBC5C1; */
     color: #cbc5c1;
     list-style-type: none;
 }
@@ -124,7 +122,6 @@ section {
     border-radius: calc(50 / 1920 * 100vw);
     align-items: center;
     text-align: center;
-    font-family: Montserrat;
     font-size: calc(36 / 1920 * 100vw);
     margin-left: calc(526 / 1920 * 100vw);
     color: #cbc5c1;
