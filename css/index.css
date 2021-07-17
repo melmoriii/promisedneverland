@@ -1,16 +1,16 @@
 @font-face {
     font-family: Montserrat;
-    src: url("fonts/Montserrat-Light.ttf");
+    src: url("../fonts/Montserrat-Light.ttf");
 }
 
 @font-face {
     font-family: Old Standard TT;
-    src: url("fonts/OldStandardTT-Regular.ttf");
+    src: url("../fonts/OldStandardTT-Regular.ttf");
 }
 
 @font-face {
     font-family: Merriweather;
-    src: url("fonts/Merriweather-LightItalic.ttf");
+    src: url("../fonts/Merriweather-LightItalic.ttf");
 }
 
 body {
@@ -68,7 +68,7 @@ a {
 
 #img2 {
     width: calc(138 / 1920 * 100vw);
-    background-image: url("img/user2.svg");
+    background-image: url("../img/user2.svg");
     background-size: cover;
     border-radius: 0 0 calc(20 / 1920 * 100vw) 0;
 }
@@ -76,7 +76,7 @@ a {
 section {
     width: calc(1415 / 1920 * 100vw);
     height: calc(819 / 1920 * 100vw);
-    background: url("img/section.svg");
+    background: url("../img/section.svg");
     background-size: cover;
     margin-top: calc(72 / 1920 * 100vw);
     margin-right: calc(245 / 1920 * 100vw);
@@ -132,6 +132,9 @@ section {
 
 #author {
     display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
     background: #5b5549;
     border: 5px solid #524d42;
     border-radius: 0 0 calc(20 / 1920 * 100vw) calc(20 / 1920 * 100vw);
