@@ -1,4 +1,6 @@
-login = 2
-password = 1234
+login = input("введите логин")
+password = input("введите пароль")
+loginr = "vodkaandthesprite"
+passwordr = "12345"
 # print(login)
 # print(57)
