@@ -1,12 +1,28 @@
-from my_srcs import login, loginr, password, passwordr
-if login == loginr and password == passwordr:
-    print("добро пожаловать на плохую вечеринку")
-elif login != loginr and password == passwordr:
-    print("bye gurl")
-elif login == loginr and password != passwordr:
-    print("bye gurl")
-elif login != loginr and password != passwordr:
-    print("bye gurl")
+from my_srcs import *
+if login == correct_login:
+    if password == correct_password:
+        print("добро пожаловать на плохую вечеринку")
+    else:
+        print("неверный пароль")
+else:
+    print("неверный логин")
+
+if login != correct_login:
+    print("неверный логин")
+else:
+    if password != correct_password:
+        print("неверный пароль")
+    else:
+        print("добро пожаловать на плохую вечеринку")
+        
+# if login == correct_login and password == correct_password:
+#     print("добро пожаловать на плохую вечеринку")
+# elif login != correct_login and password == correct_password:
+#     print("bye gurl")
+# elif login == correct_login and password != correct_password:
+#     print("bye gurl")
+# elif login != correct_login and password != correct_password:
+#     print("bye gurl")
 
 # if login == True and password == True:
 #     print("добро пожаловать на плохую вечеринку")

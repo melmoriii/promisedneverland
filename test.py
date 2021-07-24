@@ -15,11 +15,17 @@
 # print(type(street), type(contact))
 # print(dir(street))
 # print(dir(contact))
-name = 'melissa'
-age = 16
-test = f"my name is {name} and i'm {age+1}"
-print(test)
-print(type(test))
-test2 = "my name is " + name + " and i'm " + str(age+1)
-print(test2)
-print(type(test2))
+# name = 'melissa'
+# age = 16
+# test = f"my name is {name} and i'm {age+1}"
+# print(test)
+# print(type(test))
+# test2 = "my name is " + name + " and i'm " + str(age+1)
+# print(test2)
+# print(type(test2))
+if False:
+    print("it works")
+else:
+    print("it doesn't work")
+print()
+import this

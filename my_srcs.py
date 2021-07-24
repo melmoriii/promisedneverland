@@ -1,6 +1,4 @@
 login = input("введите логин")
 password = input("введите пароль")
-loginr = "vodkaandthesprite"
-passwordr = "12345"
-# print(login)
-# print(57)
+correct_login = "vodkaandthesprite"
+correct_password = "12345"
