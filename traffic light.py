@@ -1,11 +1,9 @@
 color = input("enter color")
-red = "red"
-yellow = "yellow"
-green = "green"
-if color == red:
+if color == "red":
     print("wait for green color")
+elif color == "yellow":
+    print("get ready to go")
+elif color == "green":
+    print("you can go")
 else:
-    if color == yellow:
-        print("get ready to go")
-    else:
-        print("you can go")
+    print("undefined")
