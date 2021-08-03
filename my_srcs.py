@@ -1,4 +1,5 @@
-login = input("введите логин")
-password = input("введите пароль")
-correct_login = "vodkaandthesprite"
-correct_password = "12345"
+entered_login = input("введите логин")
+entered_password = input("введите пароль")
+login = "vodkaandthesprite"
+password = "12345"
+tries = 2

@@ -23,9 +23,27 @@
 # test2 = "my name is " + name + " and i'm " + str(age+1)
 # print(test2)
 # print(type(test2))
-if False:
-    print("it works")
+# if False:
+#     print("it works")
+# else:
+#     print("it doesn't work")
+# print()
+# import this
+login = "vodkaandthesprite"
+password = "12345"
+
+entered_login = input("введите логин")
+entered_password = input("введите пароль")
+tries = 2
+
+if entered_login == login:
+    if entered_password == password:
+        print("welcome")
+    else:
+        print("wrong password")
+        while tries != 0:
+            print(f"tries left:{tries}")
+            tries = tries - 1
+            entered_password = password
 else:
-    print("it doesn't work")
-print()
-import this
+    print("wrong login")
