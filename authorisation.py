@@ -6,8 +6,8 @@ from my_srcs import *
 #         print("неверный пароль")
 # else:
 #     print("неверный логин")
-
 if entered_login == login:
+    entered_password = input("введите пароль")
     if entered_password == password:
         print("welcome")
     else:
@@ -18,6 +18,7 @@ if entered_login == login:
             entered_password = password
 else:
     print("wrong login")
+
 # if login != correct_login:
 #     print("неверный логин")
 # else:

@@ -29,21 +29,19 @@
 #     print("it doesn't work")
 # print()
 # import this
-login = "vodkaandthesprite"
-password = "12345"
-
-entered_login = input("введите логин")
-entered_password = input("введите пароль")
+# x = input()
+# print(f"{x}\n"*100)
+password = "qwerty"
+enter = input()
 tries = 2
-
-if entered_login == login:
-    if entered_password == password:
+while True:
+    if enter == password:
         print("welcome")
+        break
+    elif tries == 0:
+        print("go away")
+        break
     else:
-        print("wrong password")
-        while tries != 0:
-            print(f"tries left:{tries}")
-            tries = tries - 1
-            entered_password = password
-else:
-    print("wrong login")
+        print(f"tries left:{tries}")
+        tries = tries - 1
+        enter = input()
