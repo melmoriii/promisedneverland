@@ -6,18 +6,21 @@ from my_srcs import *
 #         print("неверный пароль")
 # else:
 #     print("неверный логин")
-if entered_login == login:
-    entered_password = input("введите пароль")
-    if entered_password == password:
-        print("welcome")
-    else:
-        print("wrong password")
-        while tries != 0:
+while True:
+    if entered_login == login:
+        entered_password = input("введите пароль")
+        if entered_password == password:
+            print("welcome")
+            break
+        elif tries == 0:
+            print("go away")
+            break
+        else:
             print(f"tries left:{tries}")
             tries = tries - 1
-            entered_password = password
-else:
-    print("wrong login")
+            entered_password = input("введите пароль")
+    else:
+        print("wrong login")
 
 # if login != correct_login:
 #     print("неверный логин")
