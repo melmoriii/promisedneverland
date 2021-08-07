@@ -31,17 +31,21 @@
 # import this
 # x = input()
 # print(f"{x}\n"*100)
-password = "qwerty"
-enter = input()
-tries = 2
-while True:
-    if enter == password:
-        print("welcome")
-        break
-    elif tries == 0:
-        print("go away")
-        break
-    else:
-        print(f"tries left:{tries}")
-        tries = tries - 1
-        enter = input()
+# password = "qwerty"
+# enter = input()
+# tries = 2
+# while True:
+#     if enter == password:
+#         print("welcome")
+#         break
+#     elif tries == 0:
+#         print("go away")
+#         break
+#     else:
+#         print(f"tries left:{tries}")
+#         tries = tries - 1
+#         enter = input()
+# x = 10
+# while x > 0:
+#     print("cycle works")
+#     print("cycle still works")

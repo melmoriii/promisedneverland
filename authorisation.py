@@ -6,9 +6,9 @@ from my_srcs import *
 #         print("неверный пароль")
 # else:
 #     print("неверный логин")
-while True:
-    if entered_login == login:
-        entered_password = input("введите пароль")
+if entered_login == login:
+    entered_password = input("введите пароль")
+    while True:
         if entered_password == password:
             print("welcome")
             break
@@ -19,8 +19,8 @@ while True:
             print(f"tries left:{tries}")
             tries = tries - 1
             entered_password = input("введите пароль")
-    else:
-        print("wrong login")
+else:
+    print("wrong login")
 
 # if login != correct_login:
 #     print("неверный логин")
