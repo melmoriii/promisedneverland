@@ -15,6 +15,7 @@
 # print(type(street), type(contact))
 # print(dir(street))
 # print(dir(contact))
+
 # name = 'melissa'
 # age = 16
 # test = f"my name is {name} and i'm {age+1}"
@@ -23,6 +24,7 @@
 # test2 = "my name is " + name + " and i'm " + str(age+1)
 # print(test2)
 # print(type(test2))
+
 # if False:
 #     print("it works")
 # else:
@@ -31,6 +33,7 @@
 # import this
 # x = input()
 # print(f"{x}\n"*100)
+
 # password = "qwerty"
 # enter = input()
 # tries = 2
@@ -45,6 +48,7 @@
 #         print(f"tries left:{tries}")
 #         tries = tries - 1
 #         enter = input()
+
 # x = 10
 # while x > 0:
 #     print("cycle works")
