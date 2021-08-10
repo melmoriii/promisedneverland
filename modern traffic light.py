@@ -3,18 +3,25 @@
     по нажатию на кнопку запускает механизм перехода на зелёный свет
     (с соответствующими комментариями)
 """
-button = input("enter the statement")
-clicked_bt = "on"
-seconds = 10
+import time
+red_seconds = 10
+green_seconds = 12
+button = False
 while True:
-    if button != clicked_bt:
-        print("red")
-        break
-    elif button == clicked_bt:
-        if seconds == 0:
+    if button == "on":
+        if red_seconds == 0:
             print("green")
             print("you can go")
-            break
-        elif seconds != 0:
-            print(f"seconds:{seconds}")
-            seconds = seconds - 1
+            print(f"seconds:{red_seconds}")
+            time.sleep(0.5)
+            red_seconds = red_seconds - 1
+            if green_seconds == 0:
+                button = False
+                print("stop")
+        else:
+            print(f"seconds:{red_seconds}")
+            time.sleep(0.5)
+            red_seconds = red_seconds - 1
+    else:
+        print("red")
+        button = input()
