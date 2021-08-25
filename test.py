@@ -56,15 +56,22 @@
 # print(3 == 3)
 # x = bool("")
 # print(x)
+"""
+    same result via while with no kills (use len for help)
+"""
+
 print(["раскольников", "старуха-процентщица", "разумихин"])
 chars = ["раскольников", "старуха-процентщица", "разумихин"]
-# print(len(chars))
+num_of_chars = len(chars)
+i = 0
+while i < num_of_chars:
+    print(chars[i])
+    i = i + 1
+print(len(chars))
 # while chars:
 #     print(chars[0])
 #     del chars[0]
 
-for i in chars:
-    print(i)
-
-while True:   #same result via while with no kills (use len for help)
-    pass
+# for i in chars:
+#     print(i)
+# print(chars)
